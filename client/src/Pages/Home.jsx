@@ -3,6 +3,7 @@ import Video from '../Components/Video'
 import Recent_news from '../Components/Recent_news'
 import Schedule from '../Components/Schedule'
 import Pricing from '../Components/Pricing';
+import Speakers from './Speakers';
 const faqs = [
   {
     question: "What should an SEO package include?",
@@ -63,6 +64,7 @@ const Home = () => {
     <div className='text-[100px]'>
       <Video/>
       <Schedule faqs={faqs} />
+      <Speakers />
       <Pricing/>
       <Recent_news/>
       

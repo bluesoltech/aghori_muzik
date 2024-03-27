@@ -1,4 +1,6 @@
 import React from "react";
+import HappyTeamLogo from "../assets/HappyTeamLogo.png"
+import {FaFacebookF,FaInstagram,FaYoutube} from "react-icons/fa"
 
 const Footer = () => {
   return (
