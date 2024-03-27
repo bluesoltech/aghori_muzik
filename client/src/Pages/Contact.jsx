@@ -3,6 +3,8 @@ import Hero from '../Components/Hero';
 import { IoLocationSharp } from "react-icons/io5";
 import { FaPhoneAlt } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
+import Map from "../Components/Map";
+
 const title = "CONTACT US";
 const description = "How can I assist you today? If you have any questions or need help, feel free to ask!";
 
@@ -57,10 +59,10 @@ const Contact = () => {
               </div>
             </form>
           </div>
-          <div className="flex flex-col justify-center items-start w-full">
+          <div className="flex flex-col items-start w-full">
             <div className='mb-10'>
-            <h2 className="text-center text-2xl font-bold text-[#2A304C] mt-12 mb-4">Get Information</h2>
-            <p className='text-[#2A304c] text-xl justify-center text-center'>Our Contact information Details and Follow us on social media</p>
+              <h2 className="text-center text-2xl font-bold text-[#2A304C] mt-12 mb-4">Get Information</h2>
+              <p className='text-[#2A304c] text-xl justify-center text-center'>Our Contact information Details and Follow us on social media</p>
             </div>
             <div className="flex items-center mb-4">
               <span className="text-indigo-900 p-2 rounded-full inline-flex items-center justify-center">
@@ -94,6 +96,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
+      <Map />
     </div>
   )
 };
