@@ -1,6 +1,7 @@
+<<<<<<< HEAD
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+=======
+>>>>>>> 4d543b7b9bfddef58ff01ad3da991a8563b0668c
 import './App.css'
 import Layout from './layout/Layout'
 
