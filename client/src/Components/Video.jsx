@@ -3,7 +3,7 @@ import React from 'react'
 const Video = () => {
     return (
         <div style={{ backgroundImage: 'linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C)' }} className='w-full h-fit items-center justify-center p-4 '>
-            <div className="flex items-center justify-center ">
+            <div className="flex items-center justify-center mt-20">
                 <div className=" border-4 border-gray-700 rounded-lg w-[900px] h-[400px]" >
                     <iframe
                         className="w-full h-full rounded-lg"
