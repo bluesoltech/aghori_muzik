@@ -3,7 +3,12 @@ import GSMalik from "../assets/GSMalik.png";
 import NMChoudhary from "../assets/N.M. Choudhary.png";
 import MThennarasan from "../assets/M.Thennarasan.png";
 import vk from "../assets/vk.jpg";
+import img2 from "../assets/img2.png"
+import img3 from "../assets/img3.png"
 import SpeakerInfoCard from "./SpeakerInfoCard";
+import Hero from "../Components/Hero";
+const title = "CONTACT US";
+const description = "How can I assist you today? If you have any questions or need help, feel free to ask!";
 
 const SpeakerCard = ({ name, rool, title, imageSrc }) => {
   return (
@@ -21,6 +26,7 @@ const SpeakerCard = ({ name, rool, title, imageSrc }) => {
 const Speakers = () => {
   return (
     <div className="container mx-auto px-4 py-8">
+      <Hero title={title} description={description} />
       <h2 className="text-center font-bold text-[33px]">Our Speakers</h2>
       <p className="text-center font-bold text-xl mb-8">
         Meet Our World's Leading Speakers
@@ -57,8 +63,25 @@ const Speakers = () => {
           marvelious lens to the sport."
           imageSrc={vk}
         />
+        <SpeakerCard
+          name="Ms. Praveena D K"
+          rool="Collector of Ahmedabad"
+          title="The state government appoints a 
+          Collector under section 8 of the 
+          Bombay Land Revenue Code, 1879."
+          imageSrc={img2}
+        />
+        <SpeakerCard
+          name="Dr. K.S. Purohit"
+          rool="Subhadra Gastro Hospital"
+          title="Dr. K.S. Purohit have the qualification 
+          of M.S in surgery, he has expertise in 
+          Gastro as well as in Laparoscopic 
+          surgeries."
+          imageSrc={img3}
+        />
       </div>
-      <SpeakerInfoCard />
+      {/* <SpeakerInfoCard /> */}
     </div>
   );
 };
