@@ -6,6 +6,7 @@ import Blog from "../Pages/Blog";
 import Gallery from "../Pages/Gallery";
 import Speakers from "../Pages/Speakers";
 import Contact from "../Pages/Contact";
+import Ticket from "../Pages/Ticket";
 
 const Routers = () => {
   return (
@@ -16,6 +17,7 @@ const Routers = () => {
       <Route path="/gallery" element={<Gallery />} />
       <Route path="/speakers" element={<Speakers />} />
       <Route path="/contact" element={<Contact />} />
+      <Route path="/ticket" element={<Ticket />} />
     </Routes>
   );
 };
