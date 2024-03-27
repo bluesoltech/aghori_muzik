@@ -1,6 +1,4 @@
 import React from "react";
-import { FaFacebookF, FaInstagram, FaYoutube } from "react-icons/fa";
-import HappyTeamLogo from "../assets/HappyTeamLogo.png";
 
 const Footer = () => {
   return (
@@ -99,4 +97,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default Footer
