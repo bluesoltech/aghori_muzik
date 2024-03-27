@@ -3,9 +3,13 @@ import Video from '../Components/Video'
 import Recent_news from '../Components/Recent_news'
 import Schedule from '../Components/Schedule'
 import Pricing from '../Components/Pricing';
+<<<<<<< HEAD
 import Map from '../Components/Map';
 import Sponsors from '../Components/Sponsors';
 import Timmer from '../Components/Timmer';
+=======
+import Speakers from './Speakers';
+>>>>>>> 4d543b7b9bfddef58ff01ad3da991a8563b0668c
 const faqs = [
   {
     question: "5:00 pm Reporting Time",
@@ -89,10 +93,17 @@ const Home = () => {
       <Timmer/>
       <Video />
       <Schedule faqs={faqs} />
+<<<<<<< HEAD
       <Pricing plansData={plansData} />
       <Recent_news />
       <Map />
       <Sponsors/>
+=======
+      <Speakers />
+      <Pricing/>
+      <Recent_news/>
+      
+>>>>>>> 4d543b7b9bfddef58ff01ad3da991a8563b0668c
     </div>
   )
 }

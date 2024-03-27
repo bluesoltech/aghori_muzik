@@ -1,12 +1,14 @@
 import React from "react";
-import Hero from "../Components/Hero";
-const title = "CONTACT US";
-const description = "How can I assist you today? If you have any questions or need help, feel free to ask!";
 
 const Blog = () => {
-  return <div>
-    <Hero title={title} description={description} />
-  </div>;
+  return <div className="flex flex-col items-center justify-center overflow-hidden mx-auto my-4 text-white p-10 h-[400px]">
+  <div className="flex flex-col items-center justify-center gap-4 text-center h-[150px] w-[20rem]">
+  <img src={comingsoon} alt="" />
+  </div>
+  <Hero title={title} description={description} />
+</div>
 };
 
 export default Blog;
+
+
