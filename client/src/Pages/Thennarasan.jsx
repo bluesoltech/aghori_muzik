@@ -4,16 +4,15 @@ import MThennarasan from "../assets/M.Thennarasan.png";
 
 const Thennarasan = () => {
   const speakerInfo = {
-    name: 'GS Malik',
+    name: 'Mr.M.Thennarasan',
     image: MThennarasan,
     role: 'Commissioner of Ahmedabad police',
     bio: [
-      'GS Malik joined the Police Service on 8 January 1994. Malik is B.Tech. (Elect.), L.L.B. by education.',
-      'Ahmedabad: Gyanender Singh Malik took charge of the office of the city police commissioner of Ahmedabad today afternoon. He received the guard of honor as he arrived at the Police Commissioner office at Shahibaug area of the city.',
+      'He has played pivotal role in ensuring doing business reforms in industries which involved developing online modules for all industry related  applications in GIDC, Geographical Information System (GIS) based estate information system, a mobile based app GIDC SETU self-certification, smart water meters and smart DCR for plan approval'
     ],
-    address: 'Delhi Darwaja Road, Shahibaug, Ahmedabad - 380004 (Near Petrol Pump and Shahibaug Under Bridge)',
-    email: 'cp-ahd@gujarat.gov.in',
-    contact: '079 - 25633636',
+    address: ' Central Zone Office, Sardar Patel Bhavan, Municipal Corporation, Danapith - Khamasa,Ahmedabad, 380001',
+    email: 'mc@ahmedabadcity.gov.in',
+    contact: '25391811',
   };
   return (
     <div>

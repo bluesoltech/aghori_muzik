@@ -4,16 +4,15 @@ import NMChoudhary from "../assets/N.M. Choudhary.png";
 
 const Nmchoudhary = () => {
   const speakerInfo = {
-    name: 'GS Malik',
+    name: 'N N Chaudhari',
     image: NMChoudhary,
     role: 'Commissioner of Ahmedabad police',
     bio: [
-      'GS Malik joined the Police Service on 8 January 1994. Malik is B.Tech. (Elect.), L.L.B. by education.',
-      'Ahmedabad: Gyanender Singh Malik took charge of the office of the city police commissioner of Ahmedabad today afternoon. He received the guard of honor as he arrived at the Police Commissioner office at Shahibaug area of the city.',
+      'Shri N N Chaudhari IPS ( Gujarat 2006 ) presently Principal, State Pol. Academy, Karai, Gandhinagar , has been empanelled to hold DIG and Equivalent posts at the Government of india.'
     ],
-    address: 'Delhi Darwaja Road, Shahibaug, Ahmedabad - 380004 (Near Petrol Pump and Shahibaug Under Bridge)',
-    email: 'cp-ahd@gujarat.gov.in',
-    contact: '079 - 25633636',
+    address: '2J54+4C2, Kankaria, Ahmedabad, Gujarat 380002',
+    email: 'acp-admin-ahd@gujarat.gov.in',
+    contact: ' 079 2546 2161',
   };
   return (
     <div>
