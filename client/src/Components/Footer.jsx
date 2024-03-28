@@ -10,7 +10,7 @@ const Footer = () => {
         borderRadius: "10px",
       }}
     >
-      <footer className=" rounded-xl h-fit overflow-hidden mx-auto my-4 text-white py-11 ">
+      <footer className=" rounded-xl h-fit overflow-hidden mx-auto  text-white py-11 ">
         <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-8 px-6 text-center md:text-left">
           <div className="flex flex-col items-center">
             <img className="h-16 w-22 mb-4" src={HappyTeamLogo} alt="Logo" />
