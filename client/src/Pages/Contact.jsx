@@ -69,8 +69,10 @@ const Contact = () => {
                 <IoLocationSharp size={40} />
               </span>
               <div className="ml-4">
-                <h3 className="text-xl font-semibold">Our Office</h3>
-                <p className="text-gray-600 mt-2">123 Business Avenue, City, Country</p>
+                <h3 className="text-xl font-semibold text-[#2A304C]">Our Office</h3>
+                <p className="text-[#2A304c] mt-2">102, Solaris Business Hub,Opp. The National Higher Secondary School Nr.
+                  Parshwnath Jain Mandir, Bhuyangdev, Sola Road, Ahmedabad,
+                  Gujarat 380013</p>
               </div>
             </div>
 
@@ -79,8 +81,8 @@ const Contact = () => {
                 <FaPhoneAlt size={40} />
               </span>
               <div className="ml-4">
-                <h3 className="text-xl font-semibold">Phone</h3>
-                <p className="text-gray-600 mt-2">+1 234 567 8900</p>
+                <h3 className="text-xl font-semibold text-[#2A304C]">Phone</h3>
+                <p className="text-[#2A304c] mt-2">+91 9274682710</p>
               </div>
             </div>
 
@@ -89,8 +91,8 @@ const Contact = () => {
                 <IoMdMail size={40} />
               </span>
               <div className="ml-4">
-                <h3 className="text-xl font-semibold">Email</h3>
-                <p className="text-gray-600 mt-2">info@example.com</p>
+                <h3 className="text-xl font-semibold text-[#2A304C]">Email</h3>
+                <p className="text-[#2A304c] mt-2">ahmedabadrakshakutsav@gmail.com</p>
               </div>
             </div>
           </div>
