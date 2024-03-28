@@ -1,18 +1,15 @@
 import React from "react";
 import Slider from "react-infinite-logo-slider";
-import logo12 from "../assets/img/logo12.png";
+import logo1 from "../assets/img/logo12.png";
+import logo2 from "../assets/HappyTeamLogo_white.png";
+import logo3 from "../assets/bluesoltech.png"
+
 
 const clientImages = [
-  { src: logo12, alt: "Client Logo" },
-  { src: logo12, alt: "Client Logo" },
-  { src: logo12, alt: "Client Logo" },
-  { src: logo12, alt: "Client Logo" },
-  { src: logo12, alt: "Client Logo" },
-  { src: logo12, alt: "Client Logo" },
-  { src: logo12, alt: "Client Logo" },
-  { src: logo12, alt: "Client Logo" },
-  { src: logo12, alt: "Client Logo" },
-  { src: logo12, alt: "Client Logo" },
+  { src: logo1, alt: "Client Logo" },
+  { src: logo2, alt: "Client Logo" },
+  { src: logo3, alt: "Client Logo" },
+
 ];
 
 const Sponsors = () => {
@@ -23,16 +20,17 @@ const Sponsors = () => {
       }}
       className="p-10 flex justify-center items-center"
     >
-      <div className="w-full p-4 xl:w-[70%] text-center">
+      <div className=" p-4  text-center w-[90%] xl:w-[70%]">
         <h1 className="text-center text-5xl font-bold text-[#FFB816] mt-12 mb-4">
           Event Sponsors
         </h1>
         <p className="text-white text-2xl  text-center mb-10">
           Check Who Makes The Event Possible
         </p>
-        <Slider
-          duration={20}
+        {/* <Slider
+          duration={10}
           pauseOnHover={true}
+          infinite={true}
           blurBorders={false}
           blurBoderColor={"#fff"}
         >
@@ -48,7 +46,19 @@ const Sponsors = () => {
               />
             </div>
           ))}
-        </Slider>
+        </Slider> */}
+        <div className="grid  grid-cols-3 mx-auto place-items-center">
+          <div className="w-[220px] h-[220px] overflow-hidden flex justify-center items-center">
+            <img src={logo2} className="object-contain max-w-full max-h-full" alt="Logo" />
+          </div>
+          <div className="w-[220px] h-[220px] overflow-hidden flex justify-center items-center">
+            <img src={logo1} className="object-contain max-w-full max-h-full" alt="Logo" />
+          </div>
+          <div className="w-[150px] h-[150px] overflow-hidden flex justify-center items-center">
+            <img src={logo3} className="object-contain max-w-full max-h-full" alt="Logo" />
+          </div>
+        </div>
+
       </div>
     </div>
   );
