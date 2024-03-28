@@ -75,7 +75,6 @@ const Contact = () => {
                   Gujarat 380013</p>
               </div>
             </div>
-
             <div className="flex items-center mb-4">
               <span className="text-indigo-900 p-2 rounded-full inline-flex items-center justify-center">
                 <FaPhoneAlt size={40} />
@@ -85,7 +84,6 @@ const Contact = () => {
                 <p className="text-[#2A304c] mt-2">+91 9274682710</p>
               </div>
             </div>
-
             <div className="flex items-center mb-4">
               <span className="text-indigo-900 p-2 rounded-full inline-flex items-center justify-center">
                 <IoMdMail size={40} />
@@ -102,5 +100,4 @@ const Contact = () => {
     </div>
   )
 };
-
 export default Contact;

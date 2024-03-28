@@ -47,14 +47,14 @@ const Sponsors = () => {
             </div>
           ))}
         </Slider> */}
-        <div className="grid  grid-cols-3 mx-auto place-items-center">
-          <div className="w-[220px] h-[220px] overflow-hidden flex justify-center items-center">
+        <div className="grid  xl:grid-cols-3 grid-cols-1 mx-auto place-items-center">
+          <div className="xl:w-[220px] w-[100px] h-[100px] xl:h-[220px] overflow-hidden flex justify-center items-center mx-auto">
             <img src={logo2} className="object-contain max-w-full max-h-full" alt="Logo" />
           </div>
-          <div className="w-[220px] h-[220px] overflow-hidden flex justify-center items-center">
+          <div className="xl:w-[220px] w-[100px] h-[100px] xl:h-[220px] overflow-hidden flex justify-center items-center mx-auto">
             <img src={logo1} className="object-contain max-w-full max-h-full" alt="Logo" />
           </div>
-          <div className="w-[150px] h-[150px] overflow-hidden flex justify-center items-center">
+          <div className="xl:w-[220px] w-[100px] h-[100px] xl:h-[220px] overflow-hidden flex justify-center items-center mx-auto">
             <img src={logo3} className="object-contain max-w-full max-h-full" alt="Logo" />
           </div>
         </div>
