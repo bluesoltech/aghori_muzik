@@ -4,7 +4,7 @@ import { IoLocationSharp } from "react-icons/io5";
 import { FaPhoneAlt } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
 import Map from "../Components/Map";
-import emailjs from "@emailjs/browser"
+// import emailjs from "@emailjs/browser"
 
 const title = "CONTACT US";
 const description =
