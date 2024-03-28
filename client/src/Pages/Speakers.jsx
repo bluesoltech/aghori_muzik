@@ -6,8 +6,8 @@ import vk from "../assets/vk.jpg";
 import img2 from "../assets/img2.png"
 import img3 from "../assets/img3.png"
 import Hero from "../Components/Hero";
-const title = "CONTACT US";
-const description = "How can I assist you today? If you have any questions or need help, feel free to ask!";
+const title = "Our Speakers";
+const description = "Meet Our World's Leading Speakers";
 
 const SpeakerCard = ({ name, role, title, imageSrc, link }) => {
   return (
@@ -26,12 +26,12 @@ const SpeakerCard = ({ name, role, title, imageSrc, link }) => {
 
 const Speakers = () => {
   return (
-    <div className="container mx-auto px-4 py-8">
+    <div className="container mx-auto px-4 py-8 ">
       <Hero title={title} description={description} />
-      <h2 className="text-center font-bold text-[33px] mt-10">Our Speakers</h2>
-      <p className="text-center font-bold text-xl mb-8">
+      {/* <h2 className="text-center font-bold text-[33px] mt-10">Our Speakers</h2> */}
+      {/* <p className="text-center font-bold text-xl mb-8">
         Meet Our World's Leading Speakers
-      </p>
+      </p> */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
         <a href="/gsmalik" className="block">
           <SpeakerCard
