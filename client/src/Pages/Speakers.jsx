@@ -3,21 +3,36 @@ import GSMalik from "../assets/GSMalik.png";
 import NMChoudhary from "../assets/N.M. Choudhary.png";
 import MThennarasan from "../assets/M.Thennarasan.png";
 import vk from "../assets/vk.jpg";
-import img2 from "../assets/img2.png"
-import img3 from "../assets/img3.png"
+import img2 from "../assets/img2.png";
+import img3 from "../assets/img3.png";
 import Hero from "../Components/Hero";
 const title = "Our Speakers";
 const description = " Meet Our World's Leading Speakers";
 
 const SpeakerCard = ({ name, role, title, imageSrc, link }) => {
   return (
-    <div className="bg-white p-6 shadow-md rounded-lg flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-6 hover:shadow-lg transition-shadow duration-300 cursor-pointer">
-      <img src={imageSrc} alt={name} className="rounded-full w-24 h-24 md:w-32 md:h-32 object-cover hover:scale-105 transition-transform duration-300" />
-      <a href={link} className="block text-center md:text-left">
+    <div className="bg-[#161928] w-full h-full p-6 shadow-md rounded-lg flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-6 hover:shadow-lg transition-shadow duration-300 cursor-pointer">
+      <div className="w-[30%] xl:w-[20%]">
+        <img
+          src={imageSrc}
+          alt={name}
+          className=" border-[#c8a651] border-[3px] rounded-full !w-24 !h-24 !md:w-32 !md:h-32 object-cover hover:scale-105 transition-transform duration-300"
+        />
+      </div>
+      <a
+        href={link}
+        className="w-[70%] xl:w-[80%] block text-center md:text-left"
+      >
         <div>
-          <h3 className="font-semibold text-xl md:text-2xl hover:text-blue-500 transition-colors duration-300">{name}</h3>
-          <p className="text-gray-600 text-lg mb-2 hover:text-gray-800 transition-colors duration-300">{role}</p>
-          <p className="text-gray-600 text-lg hover:text-gray-800 transition-colors duration-300">{title}</p>
+          <h3 className="font-semibold w-fit text-white text-xl md:text-2xl hover:text-blue-500 transition-colors duration-300">
+            {name}
+          </h3>
+          <p className="text-gray-500 w-fit text-lg mb-2 hover:text-blue-800 transition-colors duration-300">
+            {role}
+          </p>
+          <p className="text-gray-600 text-lg w-fit  transition-colors duration-300">
+            {title}
+          </p>
         </div>
       </a>
     </div>
@@ -27,9 +42,10 @@ const SpeakerCard = ({ name, role, title, imageSrc, link }) => {
 const Speakers = () => {
   return (
     <div>
-      <Hero title={title} description={description} />
-      <div className="py-10" style={{ backgroundImage: 'linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C)' }}>
-
+      <div className="w-full pt-10">
+        <h1 className="text-center text-5xl font-semibold">Our Speakers</h1>
+      </div>
+      <div className="p-10">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
           <a href="/gsmalik" className="block">
             <SpeakerCard

@@ -1,20 +1,31 @@
-import React from 'react';
-import Hero from '../Components/Hero';
+import React from "react";
+import Hero from "../Components/Hero";
 const title = "CONTACT US";
-const description = "How can I assist you today? If you have any questions or need help, feel free to ask!";
+const description =
+  "How can I assist you today? If you have any questions or need help, feel free to ask!";
 
 const SpeakerInfoCard = ({ speaker }) => {
   return (
     <div>
-      <Hero title={title} description={description} />
-      <div style={{ backgroundImage: 'linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C)' }}>
-        <div className="max-w-md mx-auto rounded overflow-hidden shadow-lg" style={{ backgroundImage: 'linear-gradient(to right, #161928 40%, #4E598E 100%)' }}>
+      <div
+        style={{
+          backgroundImage:
+            "linear-gradient(to right, #161928 40%, #4E598E 100%)",
+        }}
+      >
+        <div
+          className="max-w-md mx-auto rounded overflow-hidden shadow-lg"
+          style={{
+            backgroundImage:
+              "linear-gradient(to right, #161928 40%, #4E598E 100%)",
+          }}
+        >
           <img className="w-full" src={speaker.image} alt={speaker.name} />
           <div className="px-6 py-4">
-            <div className="font-bold text-xl mb-2 text-white">{speaker.name}</div>
-            <p className="text-white text-base">
-              {speaker.role}
-            </p>
+            <div className="font-bold text-xl mb-2 text-white">
+              {speaker.name}
+            </div>
+            <p className="text-white text-base">{speaker.role}</p>
             {speaker.bio.map((paragraph, index) => (
               <p className="text-white text-base mt-4" key={index}>
                 {paragraph}
