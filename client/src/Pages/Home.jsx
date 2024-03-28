@@ -83,6 +83,7 @@ const plansData = [
 const Home = () => {
   return (
     <div className="text-[100px]">
+      <div className="h-screen"></div>
       <Timmer />
       <Video />
       <Schedule faqs={faqs} />
