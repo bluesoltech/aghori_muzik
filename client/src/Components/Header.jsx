@@ -60,7 +60,7 @@ const Header = () => {
           <div className="flex lg:hidden">
             <button
               type="button"
-              className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
+              className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-white"
               onClick={() => setMobileMenuOpen(true)}
             >
               <span className="sr-only">Open main menu</span>
@@ -70,13 +70,13 @@ const Header = () => {
 
           <Popover.Group className="hidden lg:flex lg:gap-x-12">
             <Link
-              to=""
+              to="/"
               className="text-sm font-semibold leading-6 text-white tracking-wider"
             >
               Home
             </Link>
             <Popover className="relative">
-              <Popover.Button className="flex items-center gap-x-1 text-sm font-semibold leading-6 text-white bg-[#2b314e] tracking-wider">
+              <Popover.Button className="flex items-center gap-x-1 text-sm font-semibold leading-6 text-white bg-transparent tracking-wider">
                 Features
                 <ChevronDownIcon
                   className="h-5 w-5 flex-none text-gray-400"
@@ -94,16 +94,16 @@ const Header = () => {
                 leaveTo="opacity-0 translate-y-1"
               >
                 <Popover.Panel className="absolute -left-8 top-full z-10 mt-3 w-screen max-w-[10em] overflow-hidden rounded-3xl shadow-lg ring-1 ring-gray-900/5">
-                  <div className="p-4">
+                  <div>
                     {products.map((item) => (
                       <div
                         key={item.name}
-                        className="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-gray-50 bg-white"
+                        className="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm leading-6 backdrop-blur-md bg-black/50 hover:bg-white/50 text-black transition-all duration-200 "
                       >
                         <div className="flex-auto">
                           <Link
                             to={item.href}
-                            className="block font-semibold text-gray-900"
+                            className="block font-semibold !text-white hover:!text-black"
                           >
                             {item.name}
                             <span className="absolute inset-0" />
@@ -112,7 +112,7 @@ const Header = () => {
                       </div>
                     ))}
                   </div>
-                  <div className="grid grid-cols-2 divide-x divide-gray-900/5 bg-gray-50">
+                  {/* <div className="grid grid-cols-2 divide-x divide-gray-900/5 bg-gray-50">
                     {callsToAction.map((item) => (
                       <Link
                         key={item.name}
@@ -120,7 +120,7 @@ const Header = () => {
                         className="flex items-center justify-center gap-x-2.5 p-3 text-sm font-semibold leading-6 text-gray-900 hover:bg-gray-100"
                       ></Link>
                     ))}
-                  </div>
+                  </div> */}
                 </Popover.Panel>
               </Transition>
             </Popover>
@@ -168,7 +168,7 @@ const Header = () => {
               </Link>
               <button
                 type="button"
-                className="-m-2.5 rounded-md p-2.5 text-gray-700"
+                className="-m-2.5 rounded-md p-2.5 text-white bg-transparent"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 <span className="sr-only">Close menu</span>
@@ -196,7 +196,7 @@ const Header = () => {
                         >
                           Home
                         </Link>
-                        <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-white hover:bg-gray-50">
+                        <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-white bg-transparent">
                           Features
                           <ChevronDownIcon
                             className={classNames(
