@@ -27,7 +27,7 @@ const SpeakerCard = ({ name, role, title, imageSrc, link }) => {
 const Speakers = () => {
   return (
     <div>
-      <Hero title={title} description={description} />
+      {/* <Hero title={title} description={description} /> */}
       <div className="py-10" style={{ backgroundImage: 'linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C)' }}>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">

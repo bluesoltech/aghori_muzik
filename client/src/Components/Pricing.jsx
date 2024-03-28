@@ -22,7 +22,7 @@ const Pricing = ({ plansData }) => {
             {plansData?.map((plan, index) => (
               <div
                 key={index}
-                className="flex flex-col w-full max-w-sm bg-white dark:bg-gray-800 transition duration-300 ease-in-out transform hover:scale-105 rounded-lg"
+                className="flex flex-col w-full max-w-sm bg-white transition duration-300 ease-in-out transform hover:scale-105 rounded-lg"
               >
                 <div
                   style={{
@@ -47,7 +47,7 @@ const Pricing = ({ plansData }) => {
                       <span className="bg-indigo-900 p-1 rounded-full text-white">
                         <FaCircleChevronRight size={20} />
                       </span>
-                      <span className="text-base font-normal leading-tight text-black dark:text-white-400">
+                      <span className="text-base font-normal leading-tight text-black">
                         {feature}
                       </span>
                     </li>

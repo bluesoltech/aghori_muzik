@@ -88,13 +88,13 @@ const Timmer = () => {
         backgroundImage: "linear-gradient(to right, #161928 40%, #4E598E 100%)",
       }}
     >
-      <div className="relative">
-        <svg className="-rotate-90 h-48 w-48">
+      <div className="relative flex items-center justify-center">
+        <svg className="-rotate-90 h-48 w-48 flex items-center justify-center">
           <circle
             r="70"
             cx="90"
             cy="90"
-            className="fill-transparent stroke-[#c8a651] stroke-[8px]"
+            className="fill-transparent stroke-[#c8a651] stroke-[2px]"
           ></circle>
           <circle
             r="70"
@@ -104,23 +104,25 @@ const Timmer = () => {
             style={{
               strokeDasharray: "440px",
             }}
-            className="fill-transparent stroke-white  stroke-[8px]"
+            className="fill-transparent stroke-white  stroke-[2px]"
           ></circle>
         </svg>
-        <div className="text-[#FFB816] absolute top-16 left-11 text-2xl font-semibold flex flex-col items-center w-24 h-20">
-          <span className="text-center">{countDownTime?.days}</span>
-          <span className="text-center">
+        <div className="text-white top-0 left-0 absolute w-full h-full text-[18px] font-semibold flex flex-col justify-center items-center">
+          <span className="text-center pr-2 pt-2 font-light">
+            {countDownTime?.days}
+          </span>
+          <span className="text-center pr-2 font-light">
             {countDownTime?.days == 1 ? "Day" : "Days"}
           </span>
         </div>
       </div>
-      <div className="relative">
-        <svg className="-rotate-90 h-48 w-48">
+      <div className="relative flex items-center justify-center">
+        <svg className="-rotate-90 h-48 w-48 flex items-center justify-center">
           <circle
             r="70"
             cx="90"
             cy="90"
-            className="fill-transparent stroke-[#c8a651] stroke-[8px]"
+            className="fill-transparent stroke-[#c8a651] stroke-[2px]"
           ></circle>
           <circle
             r="70"
@@ -128,25 +130,27 @@ const Timmer = () => {
             cx="90"
             cy="90"
             style={{
-              strokeDasharray: "451px",
+              strokeDasharray: "440px",
             }}
-            className="fill-transparent stroke-white  stroke-[8px]"
+            className="fill-transparent stroke-white  stroke-[2px]"
           ></circle>
         </svg>
-        <div className="text-[#FFB816] absolute top-16 left-11 text-2xl font-semibold flex flex-col items-center w-24 h-20">
-          <span className="text-center">{countDownTime?.hours}</span>
-          <span className="text-center">
+        <div className="text-white top-0 left-0 absolute w-full h-full text-[18px] font-semibold flex flex-col justify-center items-center">
+          <span className="text-center pr-2 pt-2 font-light">
+            {countDownTime?.hours}
+          </span>
+          <span className="text-center pr-2 font-light">
             {countDownTime?.hours == 1 ? "Hour" : "Hours"}
           </span>
         </div>
       </div>
-      <div className="relative">
-        <svg className="-rotate-90 h-48 w-48">
+      <div className="relative flex items-center justify-center">
+        <svg className="-rotate-90 h-48 w-48 flex items-center justify-center">
           <circle
             r="70"
             cx="90"
             cy="90"
-            className="fill-transparent stroke-[#c8a651] stroke-[8px]"
+            className="fill-transparent stroke-[#c8a651] stroke-[2px]"
           ></circle>
           <circle
             r="70"
@@ -154,40 +158,44 @@ const Timmer = () => {
             cx="90"
             cy="90"
             style={{
-              strokeDasharray: "451px",
+              strokeDasharray: "440px",
             }}
-            className="fill-transparent stroke-white stroke-[8px]"
+            className="fill-transparent stroke-white  stroke-[2px]"
           ></circle>
         </svg>
-        <div className="text-[#FFB816] absolute top-16 left-11 text-2xl font-semibold flex flex-col items-center w-24 h-20">
-          <span className="text-center">{countDownTime?.minutes}</span>
-          <span className="text-center">
+        <div className="text-white top-0 left-0 absolute w-full h-full text-[18px] font-semibold flex flex-col justify-center items-center">
+          <span className="text-center pr-2 pt-2 font-light">
+            {countDownTime?.minutes}
+          </span>
+          <span className="text-center pr-2 font-light">
             {countDownTime?.minutes == 1 ? "Minute" : "Minutes"}
           </span>
         </div>
       </div>
-      <div className="relative">
-        <svg className="-rotate-90 h-48 w-48">
+      <div className="relative flex items-center justify-center">
+        <svg className="-rotate-90 h-48 w-48 flex items-center justify-center">
           <circle
             r="70"
             cx="90"
             cy="90"
-            className="fill-transparent stroke-[#c8a651] stroke-[8px]"
+            className="fill-transparent stroke-[#c8a651] stroke-[2px]"
           ></circle>
           <circle
             r="70"
+            ref={secondCircle}
             cx="90"
             cy="90"
-            className=" fill-transparent stroke-white  stroke-[8px]"
-            ref={secondCircle}
             style={{
-              strokeDasharray: "451px",
+              strokeDasharray: "440px",
             }}
+            className="fill-transparent stroke-white  stroke-[2px]"
           ></circle>
         </svg>
-        <div className="text-[#FFB816] absolute top-16 left-11 text-2xl font-semibold flex flex-col items-center w-24 h-20">
-          <span className="text-center">{countDownTime?.seconds}</span>
-          <span className="text-center">
+        <div className="text-white top-0 left-0 absolute w-full h-full text-[18px] font-semibold flex flex-col justify-center items-center">
+          <span className="text-center pr-2 pt-2 font-light">
+            {countDownTime?.seconds}
+          </span>
+          <span className="text-center pr-2 font-light">
             {countDownTime?.seconds == 1 ? "Second" : "Seconds"}
           </span>
         </div>

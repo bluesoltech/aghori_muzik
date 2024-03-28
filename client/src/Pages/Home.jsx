@@ -84,18 +84,14 @@ const plansData = [
 const Home = () => {
   return (
     <div className="text-[100px]">
-      <div className="">
-        <img src={banner} alt="" />
+      <div className="flex justify-center 2xl:py-2" style={{ backgroundImage: 'linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C)' }}>
+        <img src={banner} className="2xl:rounded-xl" alt="" />
       </div>
       <Timmer />
       <Video />
       <Schedule faqs={faqs} />
       <Pricing plansData={plansData} />
-      <Recent_news />
-      <Map />
       <Sponsors />
-      <Speakers />
-      <Pricing />
       <Recent_news />
     </div>
   );
