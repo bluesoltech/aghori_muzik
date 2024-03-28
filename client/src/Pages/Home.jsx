@@ -7,13 +7,13 @@ import Map from "../Components/Map";
 import Sponsors from "../Components/Sponsors";
 import Timmer from "../Components/Timmer";
 import Speakers from "./Speakers";
-import banner from "../assets/ARUFirst-01.jpg"
+import banner from "../assets/ARUFirst-01.jpg";
 const faqs = [
   {
-    question: "5:00 pm Reporting Time",
+    question: "5:00 PM Reporting Time",
   },
   {
-    question: "5:30 pm event Start",
+    question: "5:30 PM Event Start",
     answer: [
       "SEO is one of the most important aspects of online marketing. It can help you rank higher in search engine results pages, which can lead to more website visitors and more customers. If you’re looking for an SEO package, you may be wondering how much they cost.",
     ],
@@ -37,7 +37,7 @@ const faqs = [
     ],
   },
   {
-    question: "Special guest speech",
+    question: "Special Guest Speech",
     answer: [
       "When it comes to SEO, there are a lot of things to think about. You need to make sure that your website is coded in a way that makes it easy for search engines to crawl, that you have quality content, and that you’re doing everything you can to get links from other websites. If all of this sounds like too much for you, or if you just don’t have the time to do it yourself, you may want to consider hiring an SEO agency.",
     ],
@@ -81,7 +81,13 @@ const plansData = [
 const Home = () => {
   return (
     <div className="text-[100px]">
-      <div className="flex justify-center 2xl:py-2" style={{ backgroundImage: 'linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C)' }}>
+      <div
+        className="flex justify-center 2xl:py-2"
+        style={{
+          backgroundImage:
+            "linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C)",
+        }}
+      >
         <img src={banner} className="2xl:rounded-xl" alt="" />
       </div>
       <Timmer />

@@ -1,14 +1,15 @@
-import React from 'react'
-import comingsoon from "../assets/red-comingsoon.webp"
-
+import React from "react";
+import comingsoon from "../assets/red-comingsoon.webp";
 
 const Ticket = () => {
-  return (<div className="flex flex-col items-center justify-center overflow-hidden mx-auto my-4 text-white p-10 h-[400px]">
-    <div className="flex flex-col items-center justify-center gap-4 text-center h-[150px] w-[20rem]">
-      <img src={comingsoon} alt="" />
+  return (
+    <div className="flex flex-col items-center justify-center overflow-hidden mx-auto my-4 text-white h-screen">
+      <iframe
+        src="https://allevents.in/manage/tickets/book.php?event_id=80007982388315&auto_fill=1&platform=iframe&hide_details=1&aff=u0"
+        className="w-full h-full "
+      ></iframe>
     </div>
-  </div>
-  )
-}
+  );
+};
 
-export default Ticket
+export default Ticket;
