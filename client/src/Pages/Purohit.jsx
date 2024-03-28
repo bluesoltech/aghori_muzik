@@ -4,16 +4,15 @@ import img2 from "../assets/img2.png"
 
 const Purohit = () => {
   const speakerInfo = {
-    name: 'GS Malik',
+    name: 'Dr. K S Purohit',
     image: img2,
-    role: 'Commissioner of Ahmedabad police',
+    role: 'Subhadra Gastro Hospital',
     bio: [
-      'GS Malik joined the Police Service on 8 January 1994. Malik is B.Tech. (Elect.), L.L.B. by education.',
-      'Ahmedabad: Gyanender Singh Malik took charge of the office of the city police commissioner of Ahmedabad today afternoon. He received the guard of honor as he arrived at the Police Commissioner office at Shahibaug area of the city.',
+      'Right from the infrastructure to the latest medical gastroenterology technology acquisition, Subhadra Gastro Hospital has always kept its patients first and strived to deliver world’s best care to its patients since its inception last 25 years in Ahmedabad.',
     ],
-    address: 'Delhi Darwaja Road, Shahibaug, Ahmedabad - 380004 (Near Petrol Pump and Shahibaug Under Bridge)',
-    email: 'cp-ahd@gujarat.gov.in',
-    contact: '079 - 25633636',
+    address: 'Subhadra Gastro Hospital, Opposite Kocharab Ashram, Paldi, Ahmedabad - 380007',
+    email: 'info@subhadrahospital.com',
+    contact: '(+91) 98244 77663',
   };
   return (
     <div>
@@ -23,3 +22,4 @@ const Purohit = () => {
 }
 
 export default Purohit
+// 4) ( Dr. K S Purohit ) Right from the infrastructure to the latest medical gastroenterology technology acquisition, Subhadra Gastro Hospital has always kept its patients first and strived to deliver world’s best care to its patients since its inception last 25 years in Ahmedabad.

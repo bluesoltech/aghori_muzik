@@ -6,7 +6,7 @@ const Nmchoudhary = () => {
   const speakerInfo = {
     name: 'N N Chaudhari',
     image: NMChoudhary,
-    role: 'Commissioner of Ahmedabad police',
+    role: 'Joint Comissioner of Ahmedabad Police',
     bio: [
       'Shri N N Chaudhari IPS ( Gujarat 2006 ) presently Principal, State Pol. Academy, Karai, Gandhinagar , has been empanelled to hold DIG and Equivalent posts at the Government of india.'
     ],

@@ -4,16 +4,15 @@ import img3 from "../assets/img3.png"
 
 const Praveena = () => {
   const speakerInfo = {
-    name: 'GS Malik',
+    name: 'Ms. Praveena D K',
     image: img3,
-    role: 'Commissioner of Ahmedabad police',
+    role: 'Collector of Ahmedabad',
     bio: [
-      'GS Malik joined the Police Service on 8 January 1994. Malik is B.Tech. (Elect.), L.L.B. by education.',
-      'Ahmedabad: Gyanender Singh Malik took charge of the office of the city police commissioner of Ahmedabad today afternoon. He received the guard of honor as he arrived at the Police Commissioner office at Shahibaug area of the city.',
+      'Ms. Praveena D K IAS ( Gujarat 2009 ) presently Collector, Gandhinagar is transferred and appointed as Collector, Ahmedabad vice Dr. Dhavalkumar kiritkumar Patel IAS.',
     ],
-    address: 'Delhi Darwaja Road, Shahibaug, Ahmedabad - 380004 (Near Petrol Pump and Shahibaug Under Bridge)',
-    email: 'cp-ahd@gujarat.gov.in',
-    contact: '079 - 25633636',
+    address: '3H8J+7MV, RTO Subhash bridge collector office, Ashram Rd, Old Wadaj, Ahmedabad, Gujarat 380027',
+    email: 'ahd@gujarat.gov.in',
+    contact: '79 27551681',
   };
   return (
     <div>

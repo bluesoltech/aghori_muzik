@@ -4,16 +4,15 @@ import vk from "../assets/vk.jpg";
 
 const Vishnu = () => {
   const speakerInfo = {
-    name: 'GS Malik',
+    name: 'Vishnu Kamaliya',
     image: vk,
-    role: 'Commissioner of Ahmedabad police',
+    role: 'Project Director',
     bio: [
-      'GS Malik joined the Police Service on 8 January 1994. Malik is B.Tech. (Elect.), L.L.B. by education.',
-      'Ahmedabad: Gyanender Singh Malik took charge of the office of the city police commissioner of Ahmedabad today afternoon. He received the guard of honor as he arrived at the Police Commissioner office at Shahibaug area of the city.',
+      'Vishnu Kamaliya is ultra-marathoner. Provides a marvelious lens to the sport. Participated in more than 18+ marathon events. Also organized, managed and directed more than 26+ Government and Pvt. Events of Sports and Marathon.',
     ],
-    address: 'Delhi Darwaja Road, Shahibaug, Ahmedabad - 380004 (Near Petrol Pump and Shahibaug Under Bridge)',
-    email: 'cp-ahd@gujarat.gov.in',
-    contact: '079 - 25633636',
+    address: '102, Solaris Business Hub,Opp. The National Higher Secondary School Nr.Parshwnath Jain Mandir, Bhuyangdev, Sola Road, Ahmedabad, Gujarat 380013',
+    email: 'vishnu@bluesoltech.in',
+    contact: '+91 96626 95956',
   };
   return (
     <div>
@@ -23,3 +22,4 @@ const Vishnu = () => {
 }
 
 export default Vishnu
+ 
