@@ -30,7 +30,6 @@ const Routers = () => {
       <Route path="/thennarasan" element={<Thennarasan />} />
       <Route path="/vishnu" element={<Vishnu />} />
       <Route path="/gsmalik" element={<Gsmalik />} />
-
     </Routes>
   );
 };
