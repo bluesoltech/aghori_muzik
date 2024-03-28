@@ -19,26 +19,26 @@ const Footer = () => {
             <p className="text-sm text-white/70 text-center">
               A one stop solution to all your event needs.
             </p>
-            {/* <div className="flex justify-center md:justify-start mt-4">
+            <div className="flex justify-center md:justify-start mt-4">
               <Link
-                to="https://www.facebook.com/HappyTeam95?mibextid=uzlsIk"
+                to="https://www.facebook.com/Bluesoltech"
                 className="text-white hover:text-blue-600 mx-2"
               >
                 <FaFacebookF />
               </Link>
               <Link
-                to="https://www.instagram.com/happyteam95/"
+                to="https://www.instagram.com/bluesoltech.__/?hl=en"
                 className="text-white hover:text-pink-400 mx-2"
               >
                 <FaInstagram />
               </Link>
               <Link
-                to="https://www.youtube.com/@HappyTeam.95"
+                to="https://www.youtube.com/@BlueSoltech"
                 className="text-white hover:text-red-600 mx-2"
               >
                 <FaYoutube />
               </Link>
-            </div> */}
+            </div>
           </div>
 
           <div className="flex flex-col justify-center col-start-1 md:col-start-2 lg:col-start-3">
