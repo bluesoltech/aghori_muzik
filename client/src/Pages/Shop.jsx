@@ -1,10 +1,10 @@
 import React from "react";
-import image1 from "../assets/images/shop/water.jpg";
+import image1 from "../assets/images/shop/water/water-2.jpg";
 import image2 from "../assets/images/shop/coffee.jpg";
 import image3 from "../assets/images/shop/dabeli.jpg";
 import image4 from "../assets/images/shop/bakery.jpg";
 import image5 from "../assets/images/shop/south_indian.jpg";
-import image6 from "../assets/images/shop/cold_drinks.jpg";
+import image6 from "../assets/images/shop/coldDrink.jpg";
 import image7 from "../assets/images/shop/burger.jpg";
 import image8 from "../assets/images/shop/popcorn.jpg";
 import image9 from "../assets/images/shop/gola.jpg";
@@ -27,7 +27,7 @@ const products = [
   {
     id: 6,
     image: image6,
-    text: "Colddrinks & Energy Drink",
+    text: "Cold Drinks & Energy Drink",
   },
   {
     id: 7,
@@ -55,16 +55,16 @@ const Shop = () => {
   return (
     <>
       <div
-        className="p-4 grid lg:grid-rows-2 lg:grid-cols-5 sm:grid-rows-5 sm:grid-cols-2 md:grid-rows-4 md:grid-cols-3 m-auto w-full lg:gap-x-4 lg:gap-y-4 xl:gap-x-6 xl:gap-y-6 sm:gap-x-2 sm:gap-y-2 gap-y-2"
         style={{
           backgroundImage:
             "linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C)",
         }}
       >
-        {products.map((item, index) => (
-          <>
-            <div className="flex justify-around items-center flex-col bg-transparent reltive">
-              {/* <img
+        <div className="p-4 grid lg:grid-rows-2 lg:grid-cols-5 sm:grid-rows-5 sm:grid-cols-2 md:grid-rows-4 md:grid-cols-3 m-auto lg:w-5/6 lg:gap-x-4 lg:gap-y-4 xl:gap-x-4 xl:gap-y-4 sm:gap-x-2 sm:gap-y-2 gap-y-4 w-full !md:gap-x-2">
+          {products.map((item, index) => (
+            <>
+              <div className="flex justify-around items-center flex-col bg-transparent reltive">
+                {/* <img
                 className="rounded-lg h-[300px] w-[292px] overflow-hidden object-cover border-2 border-indigo-900"
                 key={index}
                 src={item.image}
@@ -75,33 +75,33 @@ const Shop = () => {
                 </p>
               </div> */}
 
-              <div
-                key={index}
-                className="image-container"
-                style={{ position: "relative", display: "inline-block" }}
-              >
-                <img
+                <div
                   key={index}
-                  src={item.image}
-                  // alt={`Gallery item ${index + 1}`}
-                  className="h-[300px] w-[292px]"
-                  // style={{ width: "100%", height: "auto" }}
-                />
-                <p
-                  className="image-text text-black bg-gradient-to-r from-[#FFE07A] to-[#7A5103] px-4 py-2 rounded-lg absolute text-[20px]"
-                  style={{
-                    position: "absolute",
-                    bottom: "10px",
-                    left: "10px",
-                    fontFamily: "Roboto, sans-serif",
-                  }}
+                  className="image-container flex justify-center items-end"
+                  style={{ position: "relative", display: "inline-block" }}
                 >
-                  {item.text}
-                </p>
+                  <img
+                    key={index}
+                    src={item.image}
+                    // alt={`Gallery item ${index + 1}`}
+                    className="h-[300px] w-[292px] object-cover"
+                    // style={{ width: "100%", height: "auto" }}
+                  />
+                  <p
+                    className="image-text px-4 py-2 rounded-lg absolute text-[12px] bottom-2 left-2 mr-2 text-black bg-gradient-to-r from-[#FFE07A] to-[#7A5103] font-semibold font-mono"
+                    style={{
+                      position: "absolute",
+                      fontFamily: "Roboto, sans-serif",
+                    }}
+                  >
+                    {" "}
+                    {item.text}
+                  </p>
+                </div>
               </div>
-            </div>
-          </>
-        ))}
+            </>
+          ))}
+        </div>
       </div>
     </>
   );

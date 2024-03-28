@@ -11,9 +11,6 @@ import banner from "../assets/ARUFirst-01.jpg"
 const faqs = [
   {
     question: "5:00 pm Reporting Time",
-    answer: [
-      "When you are looking for an SEO package, there are a few things that you should keep in mind. The first is the size of your business. If you are a small business, you may not need all of the services that an SEO company offers. You may be able to get away with just basic services, such as keyword research and on-page optimization.",
-    ],
   },
   {
     question: "5:30 pm event Start",
