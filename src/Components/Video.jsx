@@ -17,6 +17,7 @@ const Video = () => {
           <video
             autoPlay
             muted
+            loop 
             controls
             style={{ width: "100%", height: "auto" }}
             src={Aghoriconcert}
