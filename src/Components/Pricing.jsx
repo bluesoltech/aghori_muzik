@@ -18,7 +18,7 @@ const Pricing = ({ plansData }) => {
           <p className="text-[#2A304c] text-2xl font-bold text-center">
             Choose Your Plan That Fits You Best
           </p>
-          <div className="flex flex-col xl:flex-row justify-center gap-8 mt-[74px]">
+          <div className="flex flex-col items-center xl:flex-row xl:items-stretch !h-full justify-center gap-8 mt-[74px]">
             {plansData?.map((plan, index) => (
               <div
                 key={index}
@@ -63,9 +63,10 @@ const Pricing = ({ plansData }) => {
                         <FaCircleChevronRight size={20} />
                       </span>
                     </div>
-                    <button className="text-sm font-semibold leading-6 text-white bg-gradient-to-r from-[#161928] to-[#4E598E] px-4 py-2 rounded-lg">
-                      Get Ticket
-                    </button>
+                    <a className=" w-[110px] flex justify-end" href="https://allevents.in/manage/tickets/book.php?event_id=80007982388315&auto_fill=1&platform=iframe&hide_details=1&aff=u0">
+                      <button className="text-sm  font-semibold w-full h-full leading-6 text-white bg-gradient-to-r from-[#161928] to-[#4E598E] px-4 py-2 rounded-lg">Get Ticket
+                      </button>
+                    </a>
                   </div>
                 </div>
               </div>

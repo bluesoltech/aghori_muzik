@@ -49,9 +49,10 @@ const Video = () => {
             "Aapki Suraksha, Humari Zimmedari: Ahmedabad City Police"
           </p>
         </div>
-        <button className="text-sm font-semibold leading-6 text-white bg-gradient-to-r from-[#161928] to-[#4E598E] px-4 py-2 rounded-lg">
-          Purchase Ticket
-        </button>
+        <a href="https://allevents.in/manage/tickets/book.php?event_id=80007982388315&auto_fill=1&platform=iframe&hide_details=1&aff=u0">
+          <button className="text-sm font-semibold leading-6 text-white bg-gradient-to-r from-[#161928] to-[#4E598E] px-4 py-2 rounded-lg">Purchase Ticket
+          </button>
+        </a>
       </div>
     </div>
   );
