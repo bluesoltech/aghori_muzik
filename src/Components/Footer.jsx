@@ -90,7 +90,7 @@ const Footer = () => {
                   type="email"
                   target="_blank"
                 >
-                  info@bluesoltech.in
+                  info@bluesoltech.com
                 </a>
               </li>
               <li>
