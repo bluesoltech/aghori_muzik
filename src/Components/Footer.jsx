@@ -86,11 +86,11 @@ const Footer = () => {
             <ul className="text-white/50 tracking-wide">
               <li>
                 <a
-                  href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=GTvVlcSKhbzLBFBgcjnwpMfchqvFMFhKxCLznDrmfKbHQtBGpbwsllVKpNNLsNPRpBjmDdkXxFwXs"
+                  href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=DmwnWrRrmJdpbBnMwZxDjPKBbmPbBMBfTdnMRtRdLKHjfTGFNTtvbXqMSWPxmMhLSwjvGvxsdMmg"
                   type="email"
                   target="_blank"
                 >
-                  info@bluesoltech.in
+                  info@bluesoltech.com
                 </a>
               </li>
               <li>
